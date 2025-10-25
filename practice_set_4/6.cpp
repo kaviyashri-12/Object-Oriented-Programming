@@ -7,10 +7,18 @@ private:
     string model;
 
 public:
-    void setBrand(string b) { brand = b; }
-    void setModel(string m) { model = m; }
-    string getBrand() { return brand; }
-    string getModel() { return model; }
+    void setBrand(string b){
+         brand = b; 
+    }
+    void setModel(string m){ 
+        model = m;
+    }
+    string getBrand(){
+        return brand;
+    }
+    string getModel(){
+        return model; 
+    }
 };
 
 int main() {
