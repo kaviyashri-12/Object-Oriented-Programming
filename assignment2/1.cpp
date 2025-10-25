@@ -5,7 +5,8 @@ using namespace std;
 template<typename T>
 class SimpleList {
 private:
-    vector<T> data;   // internal storage
+    vector<T> data;   
+    
 
 public:
     // Default constructor
